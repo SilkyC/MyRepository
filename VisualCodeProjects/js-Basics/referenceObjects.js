@@ -11,9 +11,9 @@ let person = {
 };
 
 //STYLE 2: Dot Notation
-person.name = 'Mrinal';
+//person.name = 'Mrinal';
 
 //STYLE 3: BRACKET NOTATION
 //person['name'] = 'Minu';
 
-console.log(person.name);
+console.log(person);
