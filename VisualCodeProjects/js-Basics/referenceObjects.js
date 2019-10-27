@@ -1,4 +1,4 @@
-
+//Object Literal
 //Rather than defining each parameter of a single body
 let name = 'Silky';
 let age =40;
