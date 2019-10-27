@@ -2,7 +2,7 @@
 
 //typeof is a reserved keyword
 
-//no floating or integers... all are numbers
+//no difference in floating numbers or integers... all are numbers (9 0r 9.5)
 
 //undefined can also be a value when it is also a type
 
