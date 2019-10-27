@@ -4,7 +4,7 @@ let name = 'Silky';
 let age =40;
 
 
-//A cleaner code practice
+//A cleaner code practice to club multiple variables
 let person = {
     name: 'Silky',
     age: 40
