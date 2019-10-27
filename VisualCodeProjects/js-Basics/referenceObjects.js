@@ -11,9 +11,15 @@ let person = {
 };
 
 //STYLE 2: Dot Notation
-//person.name = 'Mrinal';
+person.name = 'Mrinal';
+person.age = 09;
 
 //STYLE 3: BRACKET NOTATION
-//person['name'] = 'Minu';
+//Used when we do not know the value upfront and say is user input based
+let nSelection = 'name';
+let aSelection = 'age';
+person[nSelection] = 'Rajula';
+person[aSelection] = 34;
 
-console.log(person);
+console.log(person.name);
+console.log(person.age);
