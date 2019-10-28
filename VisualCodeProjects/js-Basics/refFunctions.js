@@ -1,7 +1,7 @@
 //
 
 function greet(name) {
-    console.log('Hello gaon waalon');
+    console.log('Good Morning Sunshine!');
 }
 
 greet();
