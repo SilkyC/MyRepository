@@ -17,6 +17,12 @@ console.log(true === 1);
 console.log(n !== 1);
 
 
-//Ternary Operator
+//Ternary or Conditional Operator
+// If a Customer has more than 100 points
+// they are 'platinum' customer, otherwsie,
+// they are a 'gold' customer
+
 let points = 110;
-let  =
+let type = points > 100 ? 'platinum' : 'gold';
+
+console.log(type);
