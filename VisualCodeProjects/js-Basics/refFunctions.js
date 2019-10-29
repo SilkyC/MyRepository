@@ -17,6 +17,6 @@ function cube(number) {
 }
 
 // let number = cube(3);
-// console.log(number);
+// console.log(number); OR
 
 console.log(cube(2));
