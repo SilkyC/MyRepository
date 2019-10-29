@@ -45,7 +45,8 @@ console.log(result1); //1
 let result2 = false || 1 || 2; //Evaluation stops at first success, called short circuiting
 console.log(result2); //1
 
-let userColor = 'red';
+//let userColor = 'red';
+let userColor = undefined;
 let defaultColor = 'black'
 let currentColor = userColor || defaultColor;
 
