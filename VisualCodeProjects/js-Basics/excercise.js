@@ -1,9 +1,11 @@
-let abc = 'red';
-let xyz = 'blue';
+//Trying to flip values by swapping variables
 
-let abc = 'blue';
-let xyz = 'pink';
+let A = 'red';
+let B = 'blue';
 
+let X = A;
+A = B;
+B = X;
 
-console.log(abc);
-console.log(xyz);
+console.log(A);
+console.log(B);
