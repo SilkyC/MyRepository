@@ -76,7 +76,11 @@ do {
 } while (j <= 9);
 
 
-
 //#4 Infinite loop 
-let i = 0;
-while (i )
+// let k = 0;
+// while (k < 5) {
+//     console.log(k);
+//     k++;
+// }
+
+
