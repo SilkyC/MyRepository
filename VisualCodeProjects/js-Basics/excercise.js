@@ -44,7 +44,20 @@ switch (role) {
         console.log('Unkown User');
 }
 
+
 //#3 For loop
-for (let i =1; i <= 5; i++) { //initialize and increment expression
+for (let i =1; i <= 5; i++) { //initialize and scope is within the {}
   console.log('Hello World', i);
+}
+
+
+//#3 While loop (Declaration is external)
+for (let i = 0; 9 <= 5; i++) {
+    if (i % 2 !== 0) console.log(i); //Odd numbers
+}
+
+let i = 0;
+while (i <+ 5) {
+    if (i % 2 !== 0) console.log(i);
+    i++;
 }
