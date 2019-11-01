@@ -52,12 +52,31 @@ for (let i =1; i <= 5; i++) { //initialize and scope is within the {}
 
 
 //#3 While loop (Declaration is external)
-for (let i = 0; 9 <= 5; i++) {
-    if (i % 2 !== 0) console.log(i); //Odd numbers
-}
+// for (let i = 0; 9 <= 5; i++) {
+//     if (i % 2 !== 0) console.log(i); //Odd numbers
+// }
 
 let i = 0;
-while (i <+ 5) {
+while (i <= 5) {
     if (i % 2 !== 0) console.log(i);
     i++;
 }
+
+
+//#4 Do...while loop (Always executed ateleast one time even for false condition)
+// let j = 0;
+// while (j <= 5) {
+//     if (j % 2 !== 0) console.log(j);
+//     j++;
+// }
+let j = 9;
+do {
+    if (j % 2 !== 0) console.log(j);
+    j++;
+} while (j <= 9);
+
+
+
+//#4 Infinite loop 
+let i = 0;
+while (i )
