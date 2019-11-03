@@ -84,16 +84,16 @@ do {
 // }
 
 //#5 For...in
-const person = {
+const subject = {
     name: 'Silky',
     age: 40
 };
 
-for (let key in person)
-    console.log(key);
+for (let key in subject)
+    console.log(key, person[key]);
 
-//Dot Notation
-person.name
+// //Dot Notation
+// person.name
 
-// Bracket Notation
-person['name']
+// // Bracket Notation
+// person['name']
