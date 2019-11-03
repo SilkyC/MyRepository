@@ -2,10 +2,11 @@
 
 let A = 'red';
 let B = 'blue';
+let C = null;
 
-let X = A;
+C = A;
 A = B;
-B = X;
+B = C;
 
 console.log(A);
 console.log(B);

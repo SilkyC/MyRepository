@@ -12,7 +12,7 @@ let person = {
 
 //STYLE 2: Dot Notation
 person.name = 'Mrinal';
-person.age = 09;
+person.age = 9;
 
 //STYLE 3: BRACKET NOTATION
 //Used when we do not know the value upfront and say is user input based

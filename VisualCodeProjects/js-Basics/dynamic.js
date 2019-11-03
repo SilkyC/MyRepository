@@ -7,7 +7,7 @@
 //undefined can also be a value when it is also a type
 
 let petName = 'Minu';
-let years = 09;
+let years = 9;
 let isAllowed = false;
 let schoolName = undefined;
 let selectedHouse = null;

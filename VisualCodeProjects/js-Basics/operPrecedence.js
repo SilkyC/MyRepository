@@ -1,10 +1,10 @@
 //In general we go by BODMAS but with complex programing its good to use ()
 
-let z = 2 + 3 * 4;
+let d = 2 + 3 * 4;
 
-console.log(z);
+console.log(d);
 
 
-let w = (2 + 3) * 4;
+let e = (2 + 3) * 4;
 
-console.log(w);
+console.log(e);
