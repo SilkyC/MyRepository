@@ -76,12 +76,7 @@ do {
 } while (j <= 9);
 
 
-//#4 Infinite loop (Do not unleash the K9s below as they could tear apart the browser)
-// let k = 0;
-// while (k < 5) {
-//     console.log(k);
-//     k++;
-// }
+//#4 & #6 For loops refer loops.js
 
 //#5.1 For...in - Arrays
 const subject = {
@@ -108,11 +103,3 @@ for (let index in colors)
 for (let pigment of colors)
     console.log(pigment);
 
-//#6 Break and continue
-// let int = 0;
-// while (int <= 10) {
-//     if (int === 5) break;
-
-//     console.log(int);
-//     i++;  
-// }
