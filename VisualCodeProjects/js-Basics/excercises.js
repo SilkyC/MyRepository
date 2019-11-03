@@ -109,10 +109,10 @@ for (let pigment of colors)
     console.log(pigment);
 
 //#6 Break and continue
-let int = 0;
-while (int <= 10) {
-    if (int === 5) break;
+// let int = 0;
+// while (int <= 10) {
+//     if (int === 5) break;
 
-    console.log(int);
-    //i++;  
-}
+//     console.log(int);
+//     i++;  
+// }
