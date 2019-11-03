@@ -8,10 +8,10 @@
 //#6 Break and continue
 let l = 0;
 while (l <= 10) {
-  // if (l === 5) break;
+  // if (l === 5) break; //breaks the loop
   if (l % 2 === 0) {
     l++;
-    continue;
+    continue; //Legacy... Jump to next itteration
   }
 
   console.log(l);

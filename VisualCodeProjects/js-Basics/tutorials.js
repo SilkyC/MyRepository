@@ -103,4 +103,3 @@ for (let index in colors)
 //#5.2 For...of - Arrays. new in esversion 6
 for (let pigment of colors)
     console.log(pigment);
-
