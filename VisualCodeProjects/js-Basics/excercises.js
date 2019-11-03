@@ -114,5 +114,5 @@ while (int <= 10) {
     if (int === 5) break;
 
     console.log(int);
-    i++;
+    //i++;  
 }
