@@ -18,9 +18,9 @@ function max(m, n) {
 
 
 //Landscape or Portrait
-let orientation = orientation(width, height);
-console.log('Picture is in ' + orientation + ' mode');
+let orientation = isLandscape(300, 150);
+console.log('Landscape mode : ' + orientation);
 
-function orientation(width, height) {
-    return (width > height) ? true : false;
+function isLandscape(width, height) {
+    return (width > height);
 }
