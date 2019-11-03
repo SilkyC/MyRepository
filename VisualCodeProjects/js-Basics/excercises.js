@@ -76,11 +76,24 @@ do {
 } while (j <= 9);
 
 
-//#4 Infinite loop 
+//#4 Infinite loop (Do not unleash the K9s below as they could tear apart the browser)
 // let k = 0;
 // while (k < 5) {
 //     console.log(k);
 //     k++;
 // }
 
+//#5 For...in
+const person = {
+    name: 'Silky',
+    age: 40
+};
 
+for (let key in person)
+    console.log(key);
+
+//Dot Notation
+person.name
+
+// Bracket Notation
+person['name']
