@@ -83,17 +83,36 @@ do {
 //     k++;
 // }
 
-//#5 For...in
+//#5.1 For...in - Arrays
 const subject = {
     name: 'Silky',
     age: 40
 };
 
 for (let key in subject)
-    console.log(key, person[key]);
+    console.log(key, subject[key]);
 
 // //Dot Notation
 // person.name
 
-// // Bracket Notation
+// // Bracket Notation when input at the start of execution is unkown
 // person['name']
+
+const colors = ['Red', 'Green', 'Blue'];
+
+for (let index in colors)
+    console.log(index, colors[index]);
+
+
+//#5.2 For...of - Arrays. new in esversion 6
+for (let pigment of colors)
+    console.log(pigment);
+
+//#6 Break and continue
+let int = 0;
+while (int <= 10) {
+    if (int === 5) break;
+
+    console.log(int);
+    i++;
+}
