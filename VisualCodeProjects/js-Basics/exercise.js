@@ -12,15 +12,15 @@ console.log('Larger number is ' + number);
 
 function max(m, n) {
     return (m > n) ? m : n;
-//   if (m > n) return m;
-//   return n;
+    //   if (m > n) return m;
+    //   return n;
 }
 
 
 //Landscape or Portrait
-let orientation = orientation(width, height);
-console.log('Picture is in ' + orientation + ' mode');
+let orientation = isLandScape(300, 200);
+console.log('Landscape mode : ' + orientation);
 
-function orientation(width, height) {
-    return (width > height) ? true : false;
+function isLandScape(width, height) {
+    return (width > height);
 }
