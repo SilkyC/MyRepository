@@ -16,17 +16,17 @@ console.log(1 & 2); //Bitwise AND operation
 // 2 = 00000010
 // R = 00000000
 
-//Example of Usgae - UAC - Read, Write, Execute
+//Example of Usage - UAC - Read, Write, Execute
 // 00000100
 // 00000110
 // 00000001
 
-const readPermission =4;
+const readPermission = 4;
 const writePermission = 2;
 const executePermission = 1;
 
 let myPermission = 0; //Initialization and give permission
-myPermission = myPermission | readPermission |writePermission;
+myPermission = myPermission | readPermission | writePermission;
 console.log(myPermission);
 
 //Check permission
