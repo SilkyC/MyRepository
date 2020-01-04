@@ -10,9 +10,9 @@ console.log(o <= 1);
 console.log(o === 1); //Strict Equality Operator (Type + Value)
 console.log('1' === 1); //String !== Number
 
-console.log(n === 2); //Loose Equality Operator (Only Value)
-console.log('2' === 2);
-console.log(true === 2);
+console.log(o == 2); //Loose Equality Operator (Only Value)
+console.log('2' == 2); //String == Number
+console.log(true == 2);
 
 console.log(o !== 2);
 
