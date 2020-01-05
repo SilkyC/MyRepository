@@ -67,13 +67,71 @@ function checkSpeed(speed) {
     const speedLimit = 50;
     const KmPerPoint = 5;
 
-    if (speed < speedLimit)
-        return 'All good';
-    else {
-        const points = Math.floor((speed - speedLimit) / KmPerPoint)
-        if (points >= 15)
-            console.log('Suspend License! -', points, ' point(s)');
+    //if (speed <= speedLimit)
+    if (speed < speedLimit + KmPerPoint) {
+        console.log('All good');
+        return;
+    }
+    const points = Math.floor((speed - speedLimit) / KmPerPoint)
+    if (points >= 15)
+        console.log('Suspend License! -', points, ' point(s)');
+    else
+        console.log('Caution! -', points, ' point(s)');
+}
+
+
+//EXAMPLE #5
+//Display ODD & EVEN numbers within provided range
+showNumbers(10);
+
+function showNumbers(limit) {
+    for (let num = 0; num <= limit; num++) {
+        if (num > limit) {
+            console.log('You reached the upper limit of the provided range');
+            return;
+        }
+        if (num % 2 === 0)
+            console.log(num, ' - EVEN Number');
+
         else
-            console.log('Caution! -', points, ' point(s)');
+            console.log(num, ' - ODD Number')
     }
 }
+
+//EXAMPLE #6
+//Count truthy
+const array = [0, null, undefined, NaN, '', 0, 2, 3]
+
+console.log(countTruthy(array));
+
+function countTruthy(array) {
+    let count = 0;
+    for (let value of array)
+        if (value)
+            count++;
+    return count;
+
+}
+
+
+//EXAMPLE #5
+//Show properties of object
+
+const movie = {
+    title: 'abc',
+    releaseYear: 2019,
+    rating: 4.0,
+    director: "xyz",
+};
+
+showProperties(movie);
+
+function showProperties(obj) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'string')
+            console.log(key);
+    }
+}
+
+//EXAMPLE #6
+//Show properties of object
