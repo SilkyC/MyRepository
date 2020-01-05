@@ -35,8 +35,8 @@ const declare = fizzBuzz(15);
 console.log(declare);
 
 function fizzBuzz(insert) {
-    if (typeof insert !== 'number');
-    return NaN;
+    if (typeof insert !== 'number')
+        return NaN;
 
     if ((insert % 3 === 0) && (insert % 5 === 0))
         return 'FizzBuzz';
