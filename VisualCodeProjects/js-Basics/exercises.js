@@ -114,7 +114,7 @@ function countTruthy(array) {
 }
 
 
-//EXAMPLE #5
+//EXAMPLE #7
 //Show properties of object
 
 const movie = {
@@ -133,5 +133,46 @@ function showProperties(obj) {
     }
 }
 
-//EXAMPLE #6
-//Show properties of object
+//EXAMPLE #8
+//SUM of Multiples of 3 & 5 between 1-to-10 (SUM OF 3,6,9 & 5,10)
+
+console.log(sum(10));
+
+function sum(limit) {
+    let sum = 0;
+
+    for (let i = 0; i <= limit; i++)
+        if (i % 3 === 0 || i % 5 === 0)
+            sum += i;
+
+    return sum;
+}
+
+
+//EXAMPLE #9
+//Grading
+
+const marks = [90, 80, 75, 65, 100];
+
+//Average: 70
+//0-59: F
+//60-69: D
+//70-79: C
+//80-89: B
+//90-100: A
+
+
+console.log(calculateGrade(marks));
+
+function calculateGrade(marks) {
+    let sum = 0;
+    for (let mark of marks)
+        sum += mark;
+    let average = sum / marks.length;
+
+    if (average < 60) return 'F';
+    if (average < 70) return 'D';
+    if (average < 80) return 'C';
+    if (average < 90) return 'B';
+    return 'A';
+}
