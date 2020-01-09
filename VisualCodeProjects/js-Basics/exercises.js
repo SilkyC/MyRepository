@@ -152,7 +152,7 @@ function sum(limit) {
 //EXAMPLE #9
 //Grading
 
-const marks = [90, 80, 75, 65, 100];
+const array = [90, 80, 75, 65, 100];
 
 //Average: 70
 //0-59: F
@@ -162,8 +162,8 @@ const marks = [90, 80, 75, 65, 100];
 //90-100: A
 
 
-console.log(calculateGrade(marks));
-
+console.log(calculateGrade(array));
+/*
 function calculateGrade(marks) {
     let sum = 0;
     for (let mark of marks)
@@ -175,4 +175,34 @@ function calculateGrade(marks) {
     if (average < 80) return 'C';
     if (average < 90) return 'B';
     return 'A';
+}
+*/
+//Split Calculation and Comparison and create a function for calc
+
+function calculateGrade(marks) {
+    const average = calculateAverage(marks);
+    if (average < 60) return 'F';
+    if (average < 70) return 'D';
+    if (average < 80) return 'C';
+    if (average < 90) return 'B';
+    return 'A';
+}
+
+function calculateAverage(array) {
+    let sum = 0;
+    for (let value of array)
+        sum += value;
+    return sum / array.length;
+}
+
+
+//EXAMPLE #10
+//Stars
+
+showStars(10);
+
+function showStars(rows) {
+    for (let row = 1; row <= rows; row++); {
+        let pattern
+    }
 }
