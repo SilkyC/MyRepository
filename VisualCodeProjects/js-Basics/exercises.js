@@ -208,7 +208,7 @@ function showPrimes(limits) {
     for (let number = 2; number <= limits; number++) {
 
         let isPrime = true;
-        for (let factor =3; factor < number; factor++) {
+        for (let factor =2; factor < number; factor++) {
             if (number % factor === 0) {
                 isPrime = false;
                 break;
@@ -219,17 +219,15 @@ function showPrimes(limits) {
 }
 */
 function showPrimes(limits) {
-    const reminder = calculateFactor(number);
-    if (average < 60) return 'F';
-    if (average < 70) return 'D';
-    if (average < 80) return 'C';
-    if (average < 90) return 'B';
-    return 'A';
+    for (let number = 2; number <= limits; number++) {
+        if (isPrime(number)) console.log(number);
+    }
 }
 
-function showReminder(arrays) {
-    let sum = 0;
-    for (let value of arrays)
-        sum += value;
-    return sum / arrays.length;
+function isPrime(number) {
+    for (let factor = 2; factor < number; factor++)
+        if (number % factor === 0)
+            return false;
+
+    return true;
 }
