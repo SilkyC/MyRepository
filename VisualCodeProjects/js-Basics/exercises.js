@@ -147,13 +147,14 @@ function sum(limit) {
 
 //EXAMPLE #9
 //Grading
-const arrays = [90, 80, 75, 65, 100];
+
 //Average: 70
 //0-59: F
 //60-69: D
 //70-79: C
 //80-89: B
 //90-100: A
+const arrays = [90, 80, 75, 65, 100];
 console.log(calculateGrade(arrays));
 /*
 function calculateGrade(marks) {
@@ -202,7 +203,33 @@ function showStars(rows) {
 //EXAMPLE #11
 //Show prime numbers
 showPrimes(20);
+/*
+function showPrimes(limits) {
+    for (let number = 2; number <= limits; number++) {
 
-function showPrimes(range) {
-    for
+        let isPrime = true;
+        for (let factor =3; factor < number; factor++) {
+            if (number % factor === 0) {
+                isPrime = false;
+                break;
+            }
+            if (isPrime) console.log(number);
+        }
+    }
+}
+*/
+function showPrimes(limits) {
+    const reminder = calculateFactor(number);
+    if (average < 60) return 'F';
+    if (average < 70) return 'D';
+    if (average < 80) return 'C';
+    if (average < 90) return 'B';
+    return 'A';
+}
+
+function showReminder(arrays) {
+    let sum = 0;
+    for (let value of arrays)
+        sum += value;
+    return sum / arrays.length;
 }
