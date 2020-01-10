@@ -187,14 +187,22 @@ function calculateAverage(arrays) {
 }
 
 //EXAMPLE #10
-//Stars
+//Stars using nested loop
 showStars(10);
 
 function showStars(rows) {
     for (let row = 1; row <= rows; row++) {
         let pattern = '';
         for (let s = 0; s < row; s++)
-        pattern += '*';
+        pattern += '|*';
         console.log(pattern);
     }
+}
+
+//EXAMPLE #11
+//Show prime numbers
+showPrimes(20);
+
+function showPrimes(range) {
+    for
 }
