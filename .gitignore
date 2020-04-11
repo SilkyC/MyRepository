@@ -278,6 +278,7 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 npm-debug.log
+# package-lock.json
 
 # Visual Studio 6 build log
 *.plg
