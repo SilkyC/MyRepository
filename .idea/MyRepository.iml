@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Python" name="Python">
+      <configuration sdkName="" />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/IdeaProjects/HelloWorld/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IdeaProjects/ConditionalLogic/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/IdeaProjects/CalcEngine/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/IdeaProjects/Looping/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/IdeaProjects/Nested-ifs/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/IdeaProjects/Operators/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/IdeaProjects/Packaging/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/IdeaProjects/Statements/src" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
