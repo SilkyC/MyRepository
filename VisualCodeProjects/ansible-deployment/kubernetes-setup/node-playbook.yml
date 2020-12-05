@@ -60,7 +60,7 @@
     when: ansible_swaptotal_mb > 0
 
 # Step 2.3: Installing kubelet, kubeadm and kubectl
-    - name: Add an apt signing key for Kubernetes
+  - name: Add an apt signing key for Kubernetes
     apt_key:
       url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
       state: present
@@ -106,8 +106,8 @@
     command: sh /tmp/join-command.sh
 
 # Step 2.7: Setup a handler for checking Docker daemon
-  handlers:
-    - name: docker status
-      service:
-        name: docker
-        state: started
+    handlers:
+      - name: docker status
+        service:
+          name: docker
+          state: started
