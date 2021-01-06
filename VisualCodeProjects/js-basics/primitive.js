@@ -1,10 +1,12 @@
-//Types of vakues one can assign
+//Types of values one can assign
     //String Literal
     //Number Literal
     //Boolean Literal
     //Undefined
     //null
     //true and false are reserved keywords and cannot be variable names
+
+    // Symbol is also a type
 
 let fName = 'Rajula';
 let age = 34;
