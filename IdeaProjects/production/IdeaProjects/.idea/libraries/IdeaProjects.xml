@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="IdeaProjects">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/CalcEngine/src" />
+      <root url="file://$PROJECT_DIR$/ConditionalLogic/src" />
+      <root url="file://$PROJECT_DIR$/HelloWorld/src" />
+      <root url="file://$PROJECT_DIR$/Looping/src" />
+      <root url="file://$PROJECT_DIR$/Nested-ifs/src" />
+      <root url="file://$PROJECT_DIR$/Operators/src" />
+      <root url="file://$PROJECT_DIR$/Packaging/src" />
+      <root url="file://$PROJECT_DIR$/Statements/src" />
+    </SOURCES>
+  </library>
+</component>
